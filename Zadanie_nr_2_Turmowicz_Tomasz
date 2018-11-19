@@ -1,50 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-  
-  <!– Zgubiłem dongla do myszki - na touchpadzie nie mogę sobie poradzić, proszę wstrzymać się ze sprawdzaniem! :) Rano poprawię! –>
-  
-  <style>
-
-section {
-  height: 100%;
-}
-body {
-  background-color: blue;
-}
-h1   {color: black;}
-p    {color: pink;}
-
-.page-header {
-  position: fixed;
-  left: 5px;
-  top: 5px;
-  width: 40px;
-}
-
-.social {
-  position: fixed;
-  left: 5px;
-  bottom: 5px;
-  column-count: 4;
-}
-
-.social-links__link {
-  width: 200px;
-  height: 200px;
-}
-
-ul {
-  list-style-type: none;
-}
-
-</style>
-  
+ 
   <head>
     <title>Strona oficjalna zespołu 6BM</title>
   </head>
-  
-  
-  <body>
+
+<body>
     
     <header class="page-header">
             <h1 class="page-brand">
@@ -74,17 +35,22 @@ ul {
             </nav>
         </header>
   
-    <h2>About<h2>
+    <h2>About</h2>   
+  
+  <section class="about">
+  
+    <img class="group_photo" src="https://image.ibb.co/eBEVpf/band01.jpg" alt="Zdjęcie grupy"/>
+    <div><p>Hi, we are 6BM from Lublin, Poland. We play electrock. In our lyrics you’ll find emotions, reflections, some doubts and a lot of hope. We are young, and we’re aiming for more. Expect us!</p></div>
     
-    <img src="" alt="Zdjêcie grupy"/>
-    <p>Lorem ipsum...</p>
-    
-    <h2>Concerts<h2>
+    </section>  
+     
+    <h2>Concerts</h2>
     
     <section class="concerts_list">
       
     <header class="concerts__info">
   <span>
+    <img class="image_concerts"' src="https://image.ibb.co/czeBef/band02-Wiechnik-Marcin.jpg" alt="Koncert Lublin"/>
     <p class="concerts__date">20.12.2018</p>
     <p class="concerts__location">Lublin, klub AAA</p>
   </span>
@@ -93,6 +59,7 @@ ul {
       
       <header class="concerts__info">
   <span>
+    <img class="image_concerts"' src="https://image.ibb.co/dnWhKf/band03-Wiechnik-Marcin.jpg" alt="Koncert Lublin"/>
     <p class="concerts__date">20.12.2018</p>
     <p class="concerts__location">Lublin, klub AAA</p>
   </span>
@@ -101,6 +68,7 @@ ul {
       
       <header class="concerts__info">
   <span>
+    <img class="image_concerts"' src="https://image.ibb.co/jq5sKf/band04-Jakub-Bodys.jpg" alt="Koncert Lublin"/>
     <p class="concerts__date">20.12.2018</p>
     <p class="concerts__location">Lublin, klub AAA</p>
   </span>
@@ -108,35 +76,43 @@ ul {
 </header>
       
       <header class="concerts__info">
-  <span>
+  <span>                     
+    <img class="image_concerts"' src="https://image.ibb.co/ngTjX0/band05-Jakub-Bodys.jpg" alt="Koncert Lublin"/>                           
     <p class="concerts__date">20.12.2018</p>
     <p class="concerts__location">Lublin, klub AAA</p>
   </span>
   <button class="button">BUY TICKET</button>
 </header>
     
-      </section>
+    </section>
       
-    <h2>Video<h2>
-    <section>
+    <h2>Video</h2>
+ 
+    <section class="videos_list"> 
+      
     <iframe width="560" height="315" src="https://www.youtube.com/embed/AstRXh-vKNI" frameborder="0" allow="accelerometer;       autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     
     </section>
     
-    <h2>Photos<h2>
+    <h2>Photos</h2>
     
-    <img src="" alt="Zdjêcie nr 1"/>
-    <img src="" alt="Zdjêcie nr 2"/>
-    <img src="" alt="Zdjêcie nr 3"/>
-    <img src="" alt="Zdjêcie nr 4"/>
-    <img src="" alt="Zdjêcie nr 5"/>
-    <img src="" alt="Zdjêcie nr 6"/>
-    <img src="" alt="Zdjêcie nr 7"/>
-    <img src="" alt="Zdjêcie nr 8"/>
-    <img src="" alt="Zdjêcie nr 9"/> 
- </section>
+    <section class="photos_list">
       
-    <h2>Contact<h2>
+    <img class="photos_frame" src="https://image.ibb.co/dnWhKf/band03-Wiechnik-Marcin.jpg" alt="Zdjêcie nr 1"/>
+    <img class="photos_frame" src="https://image.ibb.co/ngTjX0/band05-Jakub-Bodys.jpg" alt="Zdjêcie nr 2"/>
+    <img class="photos_frame" src="https://image.ibb.co/hkXmC0/band06-Jakub-Bodys.jpg" alt="Zdjêcie nr 3"/>
+    <img class="photos_frame" src="https://image.ibb.co/iZKYs0/band07.jpg" alt="Zdjêcie nr 4"/>
+    <img class="photos_frame" src="https://image.ibb.co/dKpzX0/band08.jpg" alt="Zdjêcie nr 5"/>
+    <img class="photos_frame" src="https://image.ibb.co/cvihkL/band09.jpg" alt="Zdjêcie nr 6"/>
+    <img class="photos_frame" src="https://image.ibb.co/hgzcKf/band10.jpg" alt="Zdjêcie nr 7"/>
+    <img class="photos_frame" src="https://image.ibb.co/kwCa5L/band11.jpg" alt="Zdjêcie nr 8"/>
+    <img class="photos_frame" src="https://image.ibb.co/gaORC0/band12.jpg" alt="Zdjêcie nr 9"/> 
+
+    </section>
+      
+    <h2>Contact</h2>
+      
+    <section class="contact_list">
     
     <img src="" alt="Zdjêcie grupy nr 2"/>
     Contact: <a href="mailto:o2@o2.pl"></a>o2@o2.pl
@@ -149,10 +125,12 @@ ul {
       <input type="text" name="topic">
     </form>
     
+    </section>
+      
 </body>
 
 <footer class="page-footer">
-            <h2>Social media links</h2>
+            
             <ul class="social">
               
                 <li class="social-links__item">
