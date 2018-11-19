@@ -1,0 +1,72 @@
+section {height: 100vh;}
+
+div {background-color: darkviolet;
+     width: 25%;}
+
+.about {background-color: violet;}
+
+.concerts_list {
+  background-color: green;
+  column-count: 2}
+.videos_list {background-color: yellow;}
+
+.photos_list {
+  background-color: pink;
+  column-count: 3;
+  column-gap: 1px;
+  grid-column-gap: 0;
+}
+
+.photos_frame {
+    float: right;
+    padding-right: 80px;
+    padding-top: 80px;
+    width: 60%;
+    height: auto;
+}
+
+.contact_list {background-color: cyan;}
+.concerts_list {background-color: violet;}
+.group_photo {
+    float: right;
+    padding-right: 80px;
+    padding-top: 80px;
+    width: 40%;
+    height: auto;
+}
+
+.image_concerts {
+    width: 40%;
+    height: auto;
+}
+
+body {
+    float: right;
+    width: 80vw;
+    border: 3px solid #73AD21;
+    padding: 10px;}
+
+h1  {color: black;}
+
+h2  {text-align: right;
+     height: 10vh;
+     background-color: violet;}
+
+p   {color: pink;}
+
+.page-header {
+  position: fixed;
+  left: 5px;
+  top: 5px;
+  width: 40px;
+}
+
+.social {
+  position: fixed;
+  left: 1px;
+  bottom: 5px;
+  width: 200px;
+  column-count: 4;
+}
+
+ul {list-style-type: none;}
